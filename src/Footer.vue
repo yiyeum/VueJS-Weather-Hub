@@ -1,6 +1,6 @@
 <template>
     <div>
-        <footer class="py-5 bg-light">
+        <footer class="py-5 bg-light fixed-bottom">
             <div class="container">
                 <p class="m-0 text-center">Copyright &copy; <a href="http://kateyeeum.com">Kate Lee</a> 2017</p>
             </div>
