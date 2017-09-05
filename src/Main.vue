@@ -37,7 +37,6 @@
                     vm.place = response.data.data;
                     vm.weatherImage = vm.place.current_condition[0].weatherIconUrl[0].value;
                     vm.days = vm.place.weather;
-                    console.log(vm.place.weather);
                 })
         }
     }
