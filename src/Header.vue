@@ -22,7 +22,8 @@
 
 <style>
     .hubHeader {
-        margin-top: 5%;
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
         line-height: 0.8;
     }
 
@@ -33,6 +34,7 @@
     .hubTitle {
         font-size: 50px;
         letter-spacing: 9px;
+        margin-bottom: 2%;
     }
 
     ul.navbar-nav{

@@ -17,4 +17,8 @@
     a{
         color: #000;
     }
+
+    footer{
+        clear: both;
+    }
 </style>
