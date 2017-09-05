@@ -5,6 +5,6 @@ import Main from './Main.vue'
 import Search from './Search.vue'
 
 export const routes =[
-    {path: '/', component : Main},
+    {path: '', component : Main},
     {path: '/searchWeather',component : Search}
 ]
