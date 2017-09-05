@@ -65,7 +65,7 @@
     }
 
     .col-right_value{
-        color: coral;
+        color:  #00ff99;
         font-size: 23px;
     }
 
@@ -76,7 +76,7 @@
     span.day_forecast .day_forecast_date{
         font-size: 17px;
         text-align: center;
-        border-bottom: 2px solid coral;
+        border-bottom: 2px solid  #ffcccc;
     }
 
 </style>

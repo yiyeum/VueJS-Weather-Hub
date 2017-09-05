@@ -1,11 +1,11 @@
 <template>
     <div>
-        <div class="text-center">
+        <div class="text-center hubMain">
             <input class="searchCity" type="text" placeholder="Enter the city" v-model="cityInput">
             <button type="button" class="btn btn-outline-secondary" v-on:click="checkWeather">Check</button>
         </div>
 
-        <div class="hubMain" v-if="showWeather">
+        <div v-if="showWeather">
             <div class="col-left">
                 <img v-bind:src="weatherImage" alt="weather thumbnail">
                 <p class="col-left_city">{{place.request[0].query}} <br /> {{place.weather[0].date}}</p>
@@ -88,7 +88,7 @@
     }
 
     .col-right_value{
-        color: coral;
+        color: #00ff99;
         font-size: 23px;
     }
 
@@ -99,6 +99,6 @@
     span.day_forecast .day_forecast_date{
         font-size: 17px;
         text-align: center;
-        border-bottom: 2px solid coral;
+        border-bottom: 2px solid #ffcccc;
     }
 </style>
